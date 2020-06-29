@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!--ul_li.html-->
+    <!--리스트,목차 만들 때 씀-->
+
+    <style>
+        .gallery {}
+
+        .gallery h2 {
+            text-align: center;
+            border-bottom: 1px solid #f00;
+            padding: 0 0 20px 0;
+            text-transform: capitalize
+        }
+
+        .gallery ul {
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+        }
+
+        .gallery ul li {
+            width: 30%;
+            display: inline-block;
+            margin: 0 5% 40px 0;
+            /*12 3 6 9*/
+
+        }
+
+        .gallery ul li img {
+            width: 100%;
+        }
+
+        /* .gallery ul li img {width: 100%;}*/
+        .gallery ul li:nth-of-type(3n) {
+            margin-right: 0;
+        }
+
+        .page {
+            text-align: center;
+            margin-bottom: 100px;
+
+        }
+
+        .page a {
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            display: inline-block;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .page a:hover {
+            color: #f00;
+            background: #f5f5f5;
+
+        }
+    </style>
+
+    <div class="gallery">
+        <h2>gallery list </h2>
+        <ul>
+            <li>
+                <img src="../img/ELQ_HMPUYAACi6b.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/ELQ_HMPUYAACi6b.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/ELQ_HMPUYAACi6b.jpg" alt="">
+            </li>
+
+            <li>
+                <img src="../img/ELQ_HMPUYAACi6b.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/ELQ_HMPUYAACi6b.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/ELQ_HMPUYAACi6b.jpg" alt="">
+            </li>
+
+        </ul>
+
+        <div class="page">
+            <a href="#"> &lt; </a>
+            <a href="#"> 1 </a>
+            <a href="#"> 2 </a>
+            <a href="#"> 3 </a>
+            <a href="#"> &gt; </a>
+        </div>
+    </div>
+
+
+
+
+
+    <style>
+        .news {}
+
+        .news h2 {
+            border-bottom: 3px solid #ddd;
+            text-align: center;
+            color: crimson;
+            text-transform: uppercase
+        }
+
+        .news ul {
+            padding: 0;
+            list-style-position: inside;
+            list-style-image: url('../img/ic_check.gif');
+
+
+        }
+
+        .news ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            
+          /*  background-image: url('../img/ELQ_HMPUYAACi6b.jpg');
+            background-size:20px; 
+            background-repeat: no-repeat;
+            background-position: right bottom;*/
+            
+          /*  background: color imge position
+                repeat;*/
+            
+            background: 
+                #ddd
+                url('../img/ELQ_HMPUYAACi6b.jpg')
+                right center
+                no-repeat;
+            background-size: 20px;
+            
+            
+/*            x => left, right, center
+              y => top, center, bottom
+            
+            
+            */
+        }
+
+        .news ul li:nth-of-type(even):hover {
+            /*    even(짝수) or odd(홀수)*/
+            background: #eee;
+            background-image:
+                url(../img/ic_check.gif);
+            
+            /*block
+            세로정렬 ->가로정렬
+            
+            */
+            
+            
+            
+        }
+    </style>
+
+
+    <div class="news">
+        <h2>news</h2>
+        <ul>
+            <li> block요소가 먼가요?</li>
+            <li> inline요소가 먼가요?</li>
+            <li> inline-block요소가 먼가요?</li>
+            <li> block요소가 먼가요?</li>
+            <li> inline요소가 먼가요?</li>
+            <li> inline-block요소가 먼가요?</li>
+            <li> block요소가 먼가요?</li>
+            <li> inline요소가 먼가요?</li>
+            <li> inline-block요소가 먼가요?</li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+</body></html>

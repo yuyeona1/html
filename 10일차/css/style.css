@@ -1,0 +1,178 @@
+@import url('common.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;700&display=swap');
+
+@import url('../font/stylesheet.css');
+
+/*font-family: 'Noto Serif TC', serif;*/
+
+
+#header {
+    background: #fff;
+    padding: 20px 0;
+
+}
+
+#header > div {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header > div:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*logo*/
+#header > div h1 {
+    float: left;
+}
+
+#header > div h1 a {
+    font-family: 'Bauhaus 93';
+}
+
+
+/*menu*/
+#header > div div {
+    float: left;
+    width: 80%;
+    text-align: center;
+
+}
+
+#header > div div a {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-trigger {
+    width: 30px;
+    height: 18px;
+    display: inline-block;
+    font-size: 0;
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+
+.menu-trigger span {
+    width: 100%;
+    height: 2px;
+    margin: 2px 0;
+    background: #000;
+    display: inline-block;
+
+}
+
+.menu-trigger span:nth-of-type(1) {}
+
+.menu-trigger span:nth-of-type(2) {
+    width: 70%;
+}
+
+.menu-trigger span:nth-of-type(3) {
+    width: 86%;
+}
+
+
+
+
+
+#container {}
+
+#container .visual {
+    position: relative;
+}
+
+#container .visual > img {
+    width: 100%
+}
+
+/*중앙박스*/
+#container .visual div {
+    width: 780px;
+    padding: 50px 60px;
+    background-color: #fff;
+
+    position: absolute;
+    left: calc(50% - 450px);
+    top: 40%;
+}
+
+#container .visual div h2 {}
+#container .visual div h2 span{
+   float: right;
+   font-size: 0;
+    
+
+}
+
+
+#container .visual div h2 span a {
+            background: url('../img/ic_sns.png') no-repeat;
+            font-size: 0;
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+    margin: 0 10px;
+
+        }
+
+        #container .visual div h2 span a:nth-of-type(2) {
+            background-position: -33px 0;
+        }
+
+        #container .visual div h2 span a:nth-of-type(3) {
+              background-position: -70px 0;
+        }
+        
+
+
+#container .visual div p:nth-of-type(1) {
+    margin-top: 100px;
+}
+
+#container .visual div p:nth-of-type(2) {
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+#container .visual div p:nth-of-type(2)a {
+    font-family: 'Noto Serif TC', serif;
+
+}
+
+#container .visual div p:nth-of-type(2)a b {
+    color: #000;
+    text-transform: uppercase;
+
+
+}
+
+#container .visual div p:nth-of-type(2)a mark {
+    background-color: #fed38e;
+}
+
+
+/*푸터*/
+#footer {
+    text-align: center;
+    padding: 100px;
+
+}
